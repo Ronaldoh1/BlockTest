@@ -15,6 +15,7 @@
 		F2292F171B25E7AB003D82D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2292F161B25E7AB003D82D5 /* Images.xcassets */; };
 		F2292F1A1B25E7AB003D82D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2292F181B25E7AB003D82D5 /* LaunchScreen.xib */; };
 		F2292F261B25E7AC003D82D5 /* BlockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2292F251B25E7AC003D82D5 /* BlockTestTests.m */; };
+		F2292F311B25E7BD003D82D5 /* BlockTester.m in Sources */ = {isa = PBXBuildFile; fileRef = F2292F301B25E7BD003D82D5 /* BlockTester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		F2292F1F1B25E7AC003D82D5 /* BlockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2292F241B25E7AC003D82D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2292F251B25E7AC003D82D5 /* BlockTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestTests.m; sourceTree = "<group>"; };
+		F2292F2F1B25E7BD003D82D5 /* BlockTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockTester.h; path = ../BlockTester.h; sourceTree = "<group>"; };
+		F2292F301B25E7BD003D82D5 /* BlockTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlockTester.m; path = ../BlockTester.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		F2292F051B25E7AB003D82D5 /* BlockTest */ = {
 			isa = PBXGroup;
 			children = (
+				F2292F2F1B25E7BD003D82D5 /* BlockTester.h */,
+				F2292F301B25E7BD003D82D5 /* BlockTester.m */,
 				F2292F0A1B25E7AB003D82D5 /* AppDelegate.h */,
 				F2292F0B1B25E7AB003D82D5 /* AppDelegate.m */,
 				F2292F101B25E7AB003D82D5 /* ViewController.h */,
@@ -226,6 +231,7 @@
 				F2292F0C1B25E7AB003D82D5 /* AppDelegate.m in Sources */,
 				F2292F121B25E7AB003D82D5 /* ViewController.m in Sources */,
 				F2292F091B25E7AB003D82D5 /* main.m in Sources */,
+				F2292F311B25E7BD003D82D5 /* BlockTester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

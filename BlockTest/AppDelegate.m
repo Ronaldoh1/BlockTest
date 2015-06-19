@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BlockTester.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    BlockTester *tester = [BlockTester new];
+    [tester runTest];
+    
+
     return YES;
 }
 
